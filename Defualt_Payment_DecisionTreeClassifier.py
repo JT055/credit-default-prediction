@@ -13,7 +13,7 @@ import numpy as np
 
 # Download latest version
 #CreditData = kagglehub.dataset_download("")
-print("Path to dataset files:", CreditData)
+#print("Path to dataset files:", CreditData)
 
 # Retrieves the dataset from my device 
 #CreditData = pd.read_csv("file path from device")
