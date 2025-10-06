@@ -12,11 +12,11 @@ import joblib
 import numpy as np
 
 # Download latest version
-CreditData = kagglehub.dataset_download("uciml/default-of-credit-card-clients-dataset")
+CreditData = kagglehub.dataset_download("dataset from kaggle)
 print("Path to dataset files:", CreditData)
 
 # Retrieves the dataset from my device 
-CreditData = pd.read_csv("E:/UNI programmes/2 Year/AI/Machine Learning/dataset/UCI_Credit_Card.csv")
+CreditData = pd.read_csv("file path")
 
 # Rename the column 
 CreditData = CreditData.rename(columns={'default.payment.next.month': 'default_payment_next_month'}) 
