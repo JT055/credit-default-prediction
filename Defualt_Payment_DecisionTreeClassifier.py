@@ -1,8 +1,19 @@
-
+import kagglehub
+import pandas as pd
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from scipy import stats
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_curve, auc, mean_absolute_error, r2_score
+from sklearn.metrics import root_mean_squared_error
+import matplotlib.pyplot as plt
+import joblib
+import numpy as np
 
 # Download latest version
 #CreditData = kagglehub.dataset_download("")
-#print("Path to dataset files:", CreditData)
+print("Path to dataset files:", CreditData)
 
 # Retrieves the dataset from my device 
 #CreditData = pd.read_csv("file path from device")
