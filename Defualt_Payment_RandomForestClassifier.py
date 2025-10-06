@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.metrics import root_mean_squared_error
 import matplotlib.pyplot as plt
 import joblib
-import numpy as np
+#import numpy as np
 
 # Download latest version
 #CreditData = kagglehub.dataset_download("")
