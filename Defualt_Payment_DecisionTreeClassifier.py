@@ -17,7 +17,7 @@ import numpy as np
 
 # Retrieves the dataset from my device 
 #CreditData = pd.read_csv("file path from device")
-
+#
 # Rename the column 
 CreditData = CreditData.rename(columns={'default.payment.next.month': 'default_payment_next_month'}) 
 
