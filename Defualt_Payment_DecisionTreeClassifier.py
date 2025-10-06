@@ -12,11 +12,11 @@ import joblib
 import numpy as np
 
 # Download latest version
-CreditData = kagglehub.dataset_download("data set from kaggle")
+CreditData = kagglehub.dataset_download("")
 print("Path to dataset files:", CreditData)
 
 # Retrieves the dataset from my device 
-CreditData = pd.read_csv("file path ")
+#CreditData = pd.read_csv("file path from device")
 
 # Rename the column 
 CreditData = CreditData.rename(columns={'default.payment.next.month': 'default_payment_next_month'}) 
